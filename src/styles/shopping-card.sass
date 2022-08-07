@@ -1,0 +1,30 @@
+.ShoppingCart
+  display: flex
+  justify-content: center
+  margin: 2rem
+  &__Badge
+    .ant-badge-count
+      min-width: 50px
+      height: 50px
+      line-height: 50px
+      border-radius: 25px
+      top: 10px
+      font-size: 1.5rem
+    .ant-scroll-number-only
+      height: 50px
+  &__Content
+    width: 350px
+    border: 1px dashed
+    &__Space
+      .ant-space-item:first-child
+      margin: 0
+      text-align: center
+      padding-right: 1rem
+      .anticon-shopping-cart
+        font-size: 8rem
+      .ant-space-item:last-child
+        text-align: center
+      .ant-typography-danger
+        font-size: 1.5rem
+        text-align: center
+        font-weight: bold
