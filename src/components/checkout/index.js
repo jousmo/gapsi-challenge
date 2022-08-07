@@ -15,7 +15,7 @@ const CheckOut = () => {
             <ShoppingCartOutlined />
           </Badge>
           <Typography.Title level={3}>
-            Arrastre aquí tus productos
+            Shopping card
           </Typography.Title>
           <Typography.Text type='danger'>
             {numeral(totalPrice).format('$0,0')}
